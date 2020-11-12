@@ -1,0 +1,44 @@
+header {
+  display: flex;
+}
+.logo {
+  height: 8em;
+}
+.content {
+  display: flex;
+}
+.fishList {
+  border: 3px dotted green;
+}
+.quotes {
+  border: 3px dotted yellow;
+}
+.locations {
+  border: 3px dotted pink;
+}
+.tankTips {
+  border: 3px dotted blue;
+}
+.container {
+  border: 1px solid green;
+}
+.container--left {
+  flex: 3;
+  margin-right: 25px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+.container--right {
+  flex: 1
+}
+.fish__image {
+  height: 12em;
+}
+.location__image {
+  display: flex;
+  height: 8em;
+}
+.container--left article {
+  margin-bottom: 25px;
+}
