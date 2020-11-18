@@ -37,7 +37,8 @@ header {
 }
 .location__image {
   display: flex;
-  height: 8em;
+  margin-left: auto;
+  margin-right: auto;
 }
 .container--left article {
   margin-bottom: 25px;
